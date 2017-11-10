@@ -1,0 +1,19 @@
+# 搭建 Jenkins + Maven + SVN 实现自动发布
+
+## 安装 Tomcat
+
+
+## 在 Tomcat 上运行 Jenkins
+	
+
+## 另一种启动 JenKins 的方法
+
+## 设置 JDK
+
+## 设置 SVN
+
+## 设置 Maven
+
+## 创建
+
+
