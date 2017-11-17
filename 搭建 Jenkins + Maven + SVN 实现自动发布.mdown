@@ -118,7 +118,7 @@
 
 系统管理 -> Global Tool Configuration
 
-![设置 Maven](IMAGES/Install-Maven.PNG)
+![设置 Maven](images/Install-Maven.PNG)
 
 ### 安装 Maven 插件
 
