@@ -110,7 +110,7 @@
 
 系统管理 -> Global Tool Configuration  
 
-![设置 JDK](images/Install-JDK.png)
+![设置 JDK](images/Install-JDK.PNG)
 
 ### 设置 Maven
 
@@ -118,7 +118,7 @@
 
 系统管理 -> Global Tool Configuration
 
-![设置 Maven](IMAGES/Install-Maven.png)
+![设置 Maven](IMAGES/Install-Maven.PNG)
 
 ### 安装 Maven 插件
 
@@ -127,7 +127,7 @@
 系统管理 -> 管理插件 -> 可选插件 
 搜索 maven
 
-![安装 Maven 插件](images/Install-Maven-Integration-plugin.png)
+![安装 Maven 插件](images/Install-Maven-Integration-plugin.PNG)
 
 ### 创建新的 Maven 项目
 
@@ -139,7 +139,7 @@ Jenkins -> 新建
 
 - 设置描述
 
-![设置描述](images/Config-Description.png)
+![设置描述](images/Config-Description.PNG)
 
 - 设置源码管理  
 ```
@@ -148,13 +148,13 @@ Jenkins -> 新建
 
 记得设置登录 SVN 的凭证(Credentials)。
 
-![源码管理](images/Config-Sources-code.png)
+![源码管理](images/Config-Sources-code.PNG)
 
 - 设置 Maven 编译命令
 ```
     clean install -Dmaven.test.skip=true -Dassembly.skipAssembly=true
 ```
-![编译](images/Config-Build.png)
+![编译](images/Config-Build.PNG)
 
 - 设置 Post Steps
 
@@ -162,7 +162,7 @@ Jenkins -> 新建
 
 选中 ‘Run only if build succeeds’，选择 ‘Execute shell’，输入要执行的命令即可。这里命令的意思是使用 bash 执行一个叫 deploy.sh 的脚本，脚本里的具体内容在下文给出。
 
-![Post Steps](images/Config-Post-Steps.png)
+![Post Steps](images/Config-Post-Steps.PNG)
 
 - 保存
 
@@ -211,7 +211,7 @@ Jenkins -> 新建
 
 - 选择‘立即构建’
 
-![立即构建](images/Build-Test.png)
+![立即构建](images/Build-Test.PNG)
 
 - 在 Console Outpu 中查看构建日志信息。
 
