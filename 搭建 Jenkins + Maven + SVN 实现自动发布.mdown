@@ -135,7 +135,7 @@ Jenkins -> 新建
 
 - 输入项目名称，选择‘构建一个maven项目’，单机‘OK’。
 
-![输入项目名称](images/Create-Maven-Project.png)
+![输入项目名称](images/Create-Maven-Project.PNG)
 
 - 设置描述
 
