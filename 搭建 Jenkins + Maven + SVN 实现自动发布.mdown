@@ -216,3 +216,7 @@ Jenkins -> 新建
 - 在 Console Outpu 中查看构建日志信息。
 
 ## 完
+
+###Reference
+http://blog.csdn.net/zlxfogger/article/details/52768360  
+https://jenkins.io/doc/pipeline/tour/getting-started/
